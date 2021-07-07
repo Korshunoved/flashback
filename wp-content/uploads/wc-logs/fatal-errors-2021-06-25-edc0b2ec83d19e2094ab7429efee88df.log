@@ -1,0 +1,42 @@
+2021-06-25T01:43:54+00:00 CRITICAL syntax error, unexpected '<' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/circle.php on line 519
+
+2021-06-25T01:44:44+00:00 CRITICAL syntax error, unexpected '<' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/circle.php on line 519
+
+2021-06-25T12:40:50+00:00 CRITICAL syntax error, unexpected '.' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/add.php on line 256
+
+2021-06-25T13:04:37+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/eventpub.php on line 241
+
+2021-06-25T13:09:12+00:00 CRITICAL syntax error, unexpected ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/homepage.php on line 197
+
+2021-06-25T13:09:23+00:00 CRITICAL syntax error, unexpected ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/homepage.php on line 197
+
+2021-06-25T13:14:56+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/homepage.php on line 28
+
+2021-06-25T13:15:28+00:00 CRITICAL Uncaught Error: Call to a member function query() on null in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/homepage.php:19
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/homepage.php on line 19
+
+2021-06-25T14:42:24+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php(4504): wp_check_invalid_utf8(Object(WP_Error))
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/post.php(1567): esc_attr(Object(WP_Error))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/meta-boxes.php(1388): _wp_post_thumbnail_html(Object(WP_Error), Object(WP_Post))
+#3 [internal function]: post_thumbnail_meta_box(Object(WP_Post), Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/template.php(1389): call_user_func('post_thumbnail_...', Object(WP_Post), Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/post.php(206): re in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php on line 1098
+
+2021-06-25T14:43:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php(4504): wp_check_invalid_utf8(Object(WP_Error))
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/post.php(1567): esc_attr(Object(WP_Error))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/meta-boxes.php(1388): _wp_post_thumbnail_html(Object(WP_Error), Object(WP_Post))
+#3 [internal function]: post_thumbnail_meta_box(Object(WP_Post), Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/template.php(1389): call_user_func('post_thumbnail_...', Object(WP_Post), Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/post.php(206): re in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php on line 1098
+

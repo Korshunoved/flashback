@@ -1,0 +1,756 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="shortcut icon" href="favicon.ico">
+<title>ADMIN - Manage Events</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="flex">
+      <div class="header-left">
+        <a href="/" class="logo">
+          <img src="img/svg/logo.svg" alt="">
+        </a>
+        <form action="" class="form-search">
+          <button>
+            <img src="img/svg/search.svg" alt="">
+          </button>
+          <input type="text" placeholder="Search..." class="search-input-placeholder-js">
+        </form>
+      </div>
+
+      <div class="menu-wrapp" id="menuModal">
+        <ul class="lg-hide">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">Events & Circles</a></li>
+          <li><a href="#">Following</a></li>
+          <li class="works"><a href="#">How it Works</a></li>
+        </ul>
+        <div class="create lg-hide">
+          <a href="javascript:void(0);" onclick="$('.create-list').slideToggle();">Create</a>
+          <ul class="create-list">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="lg-visible">
+          <ul>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">My Items</a></li>
+            <li><a href="#">Following</a></li>
+            <li><a href="#">Activity</a></li>
+          </ul>
+          <ul class="tabs nav tabs-menu-lg">
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link active" data-toggle="tab" href="#tab-sidebar-1" role="tab" aria-controls="tab-sidebar-1" aria-selected="false">Ticket Management</a></li>
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-2" role="tab" aria-controls="tab-sidebar-2" aria-selected="false">Add Contributors</a></li>
+            <li class="nav-item ">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-3" role="tab" aria-controls="tab-sidebar-3"
+                 aria-selected="false">Status</a></li>
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-4" role="tab" aria-controls="tab-sidebar-4" aria-selected="false">Manage Profile </a></li>
+            <li class="nav-item verify-ticket">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-5" role="tab" aria-controls="tab-sidebar-5" aria-selected="false">Verify Ticket</a>
+              <svg width="33" height="29" aria-hidden="true" class="svg-smile">
+                <use xlink:href="#icon-verify-ticket-md"></use>
+              </svg>
+            </li>
+            <li class="nav-item"><a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-5" role="tab" aria-controls="tab-sidebar-6" aria-selected="false">Withdraw</a></li>
+          </ul>
+        </div>
+        <div class="smile">
+          <a href="#">
+            <svg width="106" height="106" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-smile"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <button class="header__burger">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <!--        <svg width="32" height="21" aria-hidden="true">-->
+        <!--          <use xlink:href="#icon-burger" class="burger"></use>-->
+        <!--          <use xlink:href="#icon-burger-active" class="burger-active"></use>-->
+        <!--        </svg>-->
+      </button>
+    </div>
+  </div>
+</header>
+
+<script >
+  function hide_menu () {
+    var burger = document.querySelector('.header__burger'),
+     canvas = document.querySelector('.darken'),
+     modal = document.getElementById('menuModal')
+    burger.classList.remove('active')
+    canvas.classList.remove('block')
+    modal.classList.remove('active')
+  }
+</script>
+<section class="section-banner">
+  <div class="baner-default " style="background: url(img/ban-backg.jpg)"></div>
+</section>
+<main class="page-user page-admin">
+  <div class="container">
+    <div class="row justify-content-between">
+      <aside class="sidebar col">
+        <div class="sidebar-banner-top">
+          <div href="#" class="smile">
+            <svg width="199" height="199" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-smile-green"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="h3"><span class="md-hide">CIRCLE</span> ADMIN</div>
+        <ul class="tabs nav lg-hide">
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tab-sidebar-1" role="tab" aria-controls="tab-sidebar-1"
+               aria-selected="false">Ticket Management</a></li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-sidebar-2" role="tab" aria-controls="tab-sidebar-2"
+               aria-selected="false">Add Contributors</a></li>
+          <li class="nav-item ">
+            <a class="nav-link " data-toggle="tab" href="#tab-sidebar-3" role="tab" aria-controls="tab-sidebar-3"
+               aria-selected="false">Status</a></li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-sidebar-4" role="tab" aria-controls="tab-sidebar-4"
+               aria-selected="false">Manage Profile </a></li>
+          <li class="nav-item verify-ticket">
+            <a class="nav-link " data-toggle="tab" href="#tab-sidebar-5" role="tab" aria-controls="tab-sidebar-5"
+               aria-selected="false">Verify Ticket</a>
+            <svg width="33" height="29" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-verify-ticket"></use>
+            </svg>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-sidebar-6" role="tab"
+               aria-controls="tab-sidebar-6" aria-selected="false">Withdraw</a></li>
+        </ul>
+      </aside>
+      <article class="content col content-tabs">
+        <div class="tab-content" id="myTabContentSidebar">
+          <div class="tab-pane fade show active" id="tab-sidebar-1" role="tabpanel">
+            <ul class="tabs nav nav-tabs " id="myTab" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link " data-toggle="tab" href="#tab-1" role="tab"
+                   aria-controls="tab-1" aria-selected="false">Your Event</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab-2" role="tab"
+                   aria-controls="tab-2" aria-selected="false">Manage Tickets</a>
+              </li>
+            </ul>
+            <button type="submit" class="btn btn_green btn_submit" value="">Submit</button>
+            <div class="tab-content" id="myTabContent">
+              <div class="tab-pane fade" id="tab-1" role="tabpanel">
+                <div class="your-event">
+                  <div class="img">
+                    <div class="img-in">
+                      <img src="img/publick-event/publick-event-sidebar.jpg" alt="">
+                    </div>
+                    <div class="h4">Flower Power - <span>22.07</span></div>
+                  </div>
+                  <div class="desc desc_qrcode">
+                    <div class="h3">NFT</div>
+                    <div class="qrcode">
+                      <svg width="189" height="189" aria-hidden="true" class="svg-smile">
+                        <use xlink:href="#icon-qrcode"></use>
+                      </svg>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+              <div class="tab-pane fade show active" id="tab-2" role="tabpanel">
+                <ul class="list-img">
+                  <li>
+                    <a href="#" class="img">
+                      <img src="img/circle-profile/1.jpg" alt="">
+                    </a>
+                    <div>
+                      <div class="h4">Basic Ticket - $100</div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" class="img">
+                      <img src="img/circle-profile/5.jpg" alt="">
+                    </a>
+                    <div>
+                      <div class="h4">Vip Ticket - $500</div>
+                    </div>
+                  </li>
+                  <li>
+                    <a href="#" class="img">
+                      <img src="img/circle-profile/5.jpg" alt="">
+                    </a>
+                    <div>
+                      <div class="h4">Diamond Ticket - $1000</div>
+                    </div>
+                  </li>
+
+
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="tab-sidebar-2" role="tabpanel">
+            <div class="content-public-event">
+              <ul class="content-public-event-top">
+                <li>
+                  <div class="inner">
+                    <div class="h3">Add Contributor</div>
+                    <input type="email" placeholder="Email Address*">
+                  </div>
+                  <div class="inner">
+                    <div class="h3">Access</div>
+                    <div class="select select-border">
+                      <a href="#" class="slct">Type of Access<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                      <ul class="drop">
+                        <li>Admin [full access]</li>
+                        <li>Editor [Edit text]</li>
+                        <li>Ticket Control [QR]</li>
+                      </ul>
+                      <input type="hidden" name="type"/>
+                    </div>
+                  </div>
+                </li>
+                <li>
+                  <div class="inner">
+                    <div class="h3">Add Contributor</div>
+                    <input type="email" placeholder="Email Address*">
+                  </div>
+                  <div class="inner">
+                    <div class="h3">Access</div>
+                    <div class="select select-border">
+                      <a href="#" class="slct active">Type of Access<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                      <ul class="drop" style="display: block">
+                        <li>Admin [full access]</li>
+                        <li>Editor [Edit text]</li>
+                        <li>Ticket Control [QR]</li>
+                      </ul>
+                      <input type="hidden" name="type"/>
+                    </div>
+                  </div>
+                </li>
+              </ul>
+              <button class="plus">+</button>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="tab-sidebar-3" role="tabpanel">
+
+            <ul class="tabs nav nav-tabs " id="myTab-2" role="tablist">
+              <li class="nav-item">
+                <a class="nav-link " data-toggle="tab" href="#tab-status-1" role="tab"
+                   aria-controls="tab-status-1" aria-selected="false">Show All</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" data-toggle="tab" href="#tab-status-2" role="tab"
+                   aria-controls="tab-status-2" aria-selected="false">Show by Event</a>
+              </li>
+            </ul>
+
+            <div class="tab-content" id="myTabContent-2">
+              <div class="tab-pane fade" id="tab-status-1" role="tabpanel">
+
+
+
+                <div class="diagram">
+                  <div class="diagram-item">
+                    <div class="title">FlashBs</div>
+                    <ul class="diagram-item-list">
+                      <li>
+                        <div class="diagram-bar" style="height: 60%;"><span>60%</span></div>
+                        <div class="diagram-name">Sold</div>
+                      </li>
+                      <li>
+                        <div class="diagram-bar" style="height: 40%;"><span>40%</span></div>
+                        <div class="diagram-name">Outsanding</div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="diagram-item">
+                    <div class="title">Participation</div>
+                    <ul class="diagram-item-list">
+                      <li>
+                        <div class="diagram-bar" style="height: 95%;"><span>95%</span></div>
+                        <div class="diagram-name">Attendees</div>
+                      </li>
+                      <li>
+                        <div class="diagram-bar" style="height: 25%;"><span>25%</span></div>
+                        <div class="diagram-name">Noshows</div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="diagram-item diagram-item-circle">
+                    <div class="title">Gender</div>
+                    <div id="container-2"></div>
+                  </div>
+
+                  <div class="diagram-item diagram-item-vertical">
+                    <div class="title">Age</div>
+                    <div class="md-visible">
+                      <ul class="diagram-item-vertical-list">
+                        <li>
+                          <div class="diagram-bar" style="height: 30%;"><span>30%</span></div>
+                          <div class="diagram-name">18-24</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 40%;"><span>40%</span></div>
+                          <div class="diagram-name">25-30</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 15%;"><span>15%</span></div>
+                          <div class="diagram-name">31-40</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 10%;"><span>10%</span></div>
+                          <div class="diagram-name">41-50</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 25%;"><span>25%</span></div>
+                          <div class="diagram-name">51 +</div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="md-hide">
+                      <ul class="diagram-item-vertical-list">
+                        <li>
+                          <div class="diagram-name">18-24</div>
+                          <div class="diagram-bar" style="width: 30%;"><span>30%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">25-30</div>
+                          <div class="diagram-bar" style="width: 40%;"><span>40%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">31-40</div>
+                          <div class="diagram-bar" style="width: 15%;"><span>15%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">41-50</div>
+                          <div class="diagram-bar" style="width: 10%;"><span>10%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">51 +</div>
+                          <div class="diagram-bar" style="width: 5%;"><span>5%</span></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="diagram-item diagram-item-info">
+                    <div class="diagram-item-info-list">
+                      <div class="title">Average Time In</div>
+                      <p class="color-red">21:45hs</p>
+                    </div>
+                    <div class="diagram-item-info-list">
+                      <div class="title">Average Time Out</div>
+                      <p class="color-red">03:15hs</p>
+                    </div>
+                    <div class="diagram-item-info-list">
+                      <div class="title">Common Intrests</div>
+                      <p class="color-red">#NewYork</p>
+                      <p class="color-red">#Dance</p>
+                      <p class="color-red">#Trance</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tab-pane fade show active" id="tab-status-2" role="tabpanel">
+                <div class="diagram">
+
+                  <div class="diagram-item">
+                    <div class="title">FlashBs</div>
+                    <ul class="diagram-item-list">
+                      <li>
+                        <div class="diagram-bar" style="height: 60%;"><span>60%</span></div>
+                        <div class="diagram-name">Sold</div>
+                      </li>
+                      <li>
+                        <div class="diagram-bar" style="height: 40%;"><span>40%</span></div>
+                        <div class="diagram-name">Outsanding</div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="diagram-item">
+                    <div class="title">Participation</div>
+                    <ul class="diagram-item-list">
+                      <li>
+                        <div class="diagram-bar" style="height: 95%;"><span>95%</span></div>
+                        <div class="diagram-name">Attendees</div>
+                      </li>
+                      <li>
+                        <div class="diagram-bar" style="height: 25%;"><span>25%</span></div>
+                        <div class="diagram-name">Noshows</div>
+                      </li>
+                    </ul>
+                  </div>
+
+                  <div class="diagram-item diagram-item-circle">
+                    <div class="title">Gender</div>
+                    <div id="container"></div>
+                  </div>
+
+                  <div class="diagram-item diagram-item-vertical">
+                    <div class="title">Age</div>
+                    <div class="md-visible">
+                      <ul class="diagram-item-vertical-list">
+                        <li>
+                          <div class="diagram-bar" style="height: 30%;"><span>30%</span></div>
+                          <div class="diagram-name">18-24</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 40%;"><span>40%</span></div>
+                          <div class="diagram-name">25-30</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 15%;"><span>15%</span></div>
+                          <div class="diagram-name">31-40</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 10%;"><span>10%</span></div>
+                          <div class="diagram-name">41-50</div>
+                        </li>
+                        <li>
+                          <div class="diagram-bar" style="height: 25%;"><span>25%</span></div>
+                          <div class="diagram-name">51 +</div>
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="md-hide">
+                      <ul class="diagram-item-vertical-list">
+                        <li>
+                          <div class="diagram-name">18-24</div>
+                          <div class="diagram-bar" style="width: 30%;"><span>30%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">25-30</div>
+                          <div class="diagram-bar" style="width: 40%;"><span>40%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">31-40</div>
+                          <div class="diagram-bar" style="width: 15%;"><span>15%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">41-50</div>
+                          <div class="diagram-bar" style="width: 10%;"><span>10%</span></div>
+                        </li>
+                        <li>
+                          <div class="diagram-name">51 +</div>
+                          <div class="diagram-bar" style="width: 5%;"><span>5%</span></div>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+
+                  <div class="diagram-item diagram-item-info">
+                    <div class="diagram-item-info-list">
+                      <div class="title">Average Time In</div>
+                      <p class="color-red">21:45hs</p>
+                    </div>
+                    <div class="diagram-item-info-list">
+                      <div class="title">Average Time Out</div>
+                      <p class="color-red">03:15hs</p>
+                    </div>
+                    <div class="diagram-item-info-list">
+                      <div class="title">Common Intrests</div>
+                      <p class="color-red">#NewYork</p>
+                      <p class="color-red">#Dance</p>
+                      <p class="color-red">#Trance</p>
+                    </div>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="tab-pane fade" id="tab-sidebar-4" role="tabpanel">
+            <div class="content-public-event">
+              <div class="content-public-event d-flex">
+                <ul class="content-public-event-top">
+                  <li>
+                    <div class="md-flex">
+                      <div class="item">
+                        <div class="h3">Circle Name</div>
+                        <div class="h4">Pacha</div>
+                      </div>
+                      <div class="item">
+                        <div class="h3">Contact Email</div>
+                        <div class="h4">PachaIbiza@email.com</div>
+                      </div>
+                    </div>
+
+                    <div class="item">
+                      <div class="h3">Location</div>
+                      <ul class="list">
+                        <li>
+                          <input type="text" placeholder="Country">
+                        </li>
+                        <li>
+                          <input type="text" placeholder="City">
+                        </li>
+                      </ul>
+                    </div>
+                  </li>
+
+                  <li>
+                    <div class="item">
+                      <div class="h3">Tags</div>
+                      <input type="text" placeholder="">
+                    </div>
+                    <div class="item ">
+                      <div class="h3">Bio</div>
+                      <textarea class="input"></textarea>
+                    </div>
+                  </li>
+                </ul>
+                <ul class="upload">
+                  <li>
+                    <div class="inputfile-box">
+                      <input type="file" name="file" id="input_logo" class="inputfile"
+                             data-multiple-caption="{count} files selected" multiple="">
+                      <label for="input_logo">
+                        <strong>Upload</strong>
+                        <span>Profile Picture</span>
+                      </label>
+                    </div>
+                  </li>
+                  <li>
+                    <div class="inputfile-box">
+                      <input type="file" name="file" id="input_bnner" class="inputfile"
+                             data-multiple-caption="{count} files selected" multiple="">
+                      <label for="input_bnner">
+                        <strong>Upload</strong>
+                        <span>Banner</span>
+                      </label>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="tab-sidebar-5" role="tabpanel">
+            <div class="not-following">
+              <div class="h2">Please use your phone</div>
+            </div>
+          </div>
+
+          <div class="tab-pane fade" id="tab-sidebar-6" role="tabpanel">Withdraw</div>
+        </div>
+
+      </article>
+    </div>
+  </div>
+
+
+</main>
+
+
+<footer class="footer">
+</footer>
+<div class="darken"></div>
+<!-- Modal -->
+<div class="modal fade modal_user_login" id="modal_user_login" tabindex="-1" role="dialog"
+     aria-labelledby="modal_user_loginLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="h3">Гость</div>
+
+      <a href="#" class="btn btn_grean" data-toggle="modal" data-target="#modal_user_loggedin">Авторизация</a>
+      <a href="#" class="btn btn_border_green">Регистрация</a>
+
+      </form>
+    </div>
+  </div>
+</div>
+<div class="modal -fadeIn" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="modalMenuLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="container">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="./img/svg/close2.svg" alt="mydance"></span>
+        </button>
+        <div class="row modalMenu-text">
+          <div class="col-lg-4">
+            <div class="h2">Меню</div>
+            <ul class="user-info">
+              <li>
+                <div class="h4">Иванова Маша</div>
+                <p>@i.masha</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="h5">Поиск:</div>
+            <form action="" class="form">
+              <ul class="result">
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Танцевальные школы</a></li>
+                    <li><a href="#">Педагогы-хореографы</a></li>
+                    <li><a href="#">Онлайн курсов</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Танцевальные проекты</a></li>
+                    <li><a href="#">Шоу-балеты</a></li>
+                    <li><a href="#">Мастер-классы</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Афиша мероприятий</a></li>
+                    <li><a href="#">Dance Hunter</a></li>
+                    <li><a href="#">Аренда залов</a></li>
+                    <li><a href="#">Организация видеосъемки</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Рейтинг ТШ и ПХ</a></li>
+                    <li><a href="#">Новости танцевального мира</a></li>
+                    <li><a href="#">Видео от лучших хореографов</a></li>
+                    <li><a href="#">Подборка фильмов о танцах</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.min.js"></script>
+<script src="https://code.highcharts.com/highcharts.js"></script>
+<script src="https://code.highcharts.com/modules/exporting.js"></script>
+<script src="https://code.highcharts.com/modules/export-data.js"></script>
+<script src="https://code.highcharts.com/modules/accessibility.js"></script>
+
+<script>
+  // Make monochrome colors
+  var pieColors = (function () {
+    var colors = ['#C2FFA8', '#FF4484'],
+      base = Highcharts.getOptions().colors[0],
+      i;
+
+
+    return colors;
+  }());
+
+  // Build the chart
+  Highcharts.chart('container', {
+    chart: {
+      plotBackgroundColor: null,
+      plotBorderWidth: null,
+      plotShadow: false,
+      type: 'pie'
+    },
+    title: {
+      text: ''
+    },
+    tooltip: {
+      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+      point: {
+        valueSuffix: '%'
+      }
+    },
+    plotOptions: {
+      pie: {
+        allowPointSelect: true,
+        cursor: 'pointer',
+        colors: pieColors,
+        dataLabels: {
+          enabled: true,
+          format: '<b>{point.name}</b><br>{point.percentage:.1f} %',
+          distance: -50,
+          filter: {
+            property: 'percentage',
+            operator: '>',
+            value: 4
+          }
+        }
+      }
+    },
+    series: [{
+      name: 'Share',
+      data: [
+        {name: 'Men', y: 33},
+        {name: 'Women', y: 67}
+      ]
+    }]
+  });
+  Highcharts.chart('container-2', {
+    chart: {
+      plotBackgroundColor: null,
+      plotBorderWidth: null,
+      plotShadow: false,
+      type: 'pie'
+    },
+    title: {
+      text: ''
+    },
+    tooltip: {
+      pointFormat: '{series.name}: <b>{point.percentage:.1f}%</b>'
+    },
+    accessibility: {
+      point: {
+        valueSuffix: '%'
+      }
+    },
+    plotOptions: {
+      pie: {
+        allowPointSelect: true,
+        cursor: 'pointer',
+        colors: pieColors,
+        dataLabels: {
+          enabled: true,
+          format: '<b>{point.name}</b><br>{point.percentage:.1f} %',
+          distance: -50,
+          filter: {
+            property: 'percentage',
+            operator: '>',
+            value: 4
+          }
+        }
+      }
+    },
+    series: [{
+      name: 'Share',
+      data: [
+        {name: 'Men', y: 33},
+        {name: 'Women', y: 67}
+      ]
+    }]
+  });
+</script>
+
+</body>
+</html>

@@ -1,0 +1,37 @@
+2021-06-14T11:43:06+00:00 CRITICAL Cannot redeclare tribe_register_event_tickets_plus() (previously declared in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus/event-tickets-plus.php:76) in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus0/event-tickets-plus.php on line 73
+
+2021-06-14T11:43:07+00:00 CRITICAL Cannot redeclare tribe_register_event_tickets_plus() (previously declared in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus/event-tickets-plus.php:76) in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus0/event-tickets-plus.php on line 73
+
+2021-06-14T11:43:08+00:00 CRITICAL Cannot redeclare tribe_register_event_tickets_plus() (previously declared in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus/event-tickets-plus.php:76) in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/event-tickets-plus0/event-tickets-plus.php on line 73
+
+2021-06-14T12:09:57+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('<a href="https:...', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('<a href="https:...', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '<a href="https:...', Object(WP_User))
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/ in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-14T12:10:54+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('<a href="https:...', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('<a href="https:...', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '<a href="https:...', Object(WP_User))
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/ in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-14T12:30:52+00:00 CRITICAL syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/circle.php on line 21
+
+2021-06-14T12:31:18+00:00 CRITICAL syntax error, unexpected ''meta_query'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/circle.php on line 20
+
+2021-06-14T12:40:07+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('<a href="https:...', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('<a href="https:...', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '<a href="https:...', Object(WP_User))
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/ in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+

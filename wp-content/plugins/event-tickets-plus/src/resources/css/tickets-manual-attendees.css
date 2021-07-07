@@ -1,0 +1,485 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: http://moderntribe.github.io/products-engineering/css/
+ */
+
+/**
+ * Event Tickets Plus - Manual Attendees
+ *
+ * @since 5.2.0
+ */
+/* -----------------------------------------------------------------------------
+ *
+ * Utilities
+ *
+ * This file is just a clearing-house.
+ * Make partials (start with an underscore) for any actual css code.
+ *
+ * ----------------------------------------------------------------------------- */
+/* Variables */
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Borders - Radius
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Borders - Width
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Box Shadows
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Layers of z-index
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Colors - Typography
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - Iconography
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - UI
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Colors - Borders & Misc
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Forms - Colors
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Forms - Box Shadows
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Gutter - Default
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Gutter - Page
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Grid Width - Default
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Grid Width - Relative
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Opacities
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Spacers
+	 * ----------------------------------------------------------------------------- */
+}
+/* -----------------------------------------------------------------------------
+ * SVG - Arrow Right
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Arrow (light, left)
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Down
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Left
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Right
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Caret Up
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Check
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Close
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Day
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Dropdown
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Error
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Featured
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Filters
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Link
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Guest
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - List
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Location
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Mail
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Map
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Map pin
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Messages
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Month
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - No Map
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Paper Plane
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Phone
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Photo
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Plus
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Recurring
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Remove
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Reset
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Search
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Search Filter
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * SVG - Week
+ * ----------------------------------------------------------------------------- */
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Transitions
+	 * ----------------------------------------------------------------------------- */
+}
+:root {
+	/* -----------------------------------------------------------------------------
+	 * Font Stacks
+	 * ----------------------------------------------------------------------------- */ /* stylelint-disable-line value-keyword-case */
+
+	/* -----------------------------------------------------------------------------
+	 * Font Weights
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Font Sizing
+	 * ----------------------------------------------------------------------------- */
+
+	/* -----------------------------------------------------------------------------
+	 * Line Height
+	 * ----------------------------------------------------------------------------- */
+}
+/* Mixins */
+/* -----------------------------------------------------------------------------
+ * Body
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Desktop Body 1
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Desktop Body 2
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Desktop Body 3
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Mobile Body 1
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Mobile Body 2
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Mobile Body 3
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 1
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 2
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 3
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 4
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 5
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 6
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 7
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Heading 8
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Anchor - Default
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Anchor - Alt
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Anchor - Thin
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Global
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Solid
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Link
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Border
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Border Small
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Button - Icon Border
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Sliders & Toggles
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Sliders
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Hidden: Hide from both screenreaders and browsers
+ * @author: h5bp.com/u
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Visually Hide: Hide only visually, but have it available for screenreaders
+ * @author: h5bp.com/v
+ * ----------------------------------------------------------------------------- */
+/* -----------------------------------------------------------------------------
+ * Visually Show: Show element after has been hidden with %visually-hide
+ * ----------------------------------------------------------------------------- */
+body.tribe_events_page_tickets-attendees .event-tickets div.tribe-dialog, body.tribe_events_page_tickets-attendees .tribe-common div.tribe-dialog {
+			z-index: 99999; /* Fix for the WP admin bar. */
+		}
+/*
+		Manual Attendees modal specific styles
+	*/
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees {
+		background-color: #fff;
+		border-radius: 0;
+		height: 100%;
+		max-width: 100vw;
+		padding: 0;
+		width: 565px;
+	}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-common-c-loader, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-common-c-loader {
+			padding-top: 0;
+			padding-top: initial;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__close-button, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__close-button {
+			top: 24px;
+			right: 20px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__title--manual-attendees, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__title--manual-attendees {
+			align-self: center;
+			margin: 0 0 12px;
+			padding-top: 16px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form,
+		.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-success,
+		.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form,
+		.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-success {
+			border-top-color: #d5d5d5;
+			border-top-style: dashed;
+			border-top-width: 1px;
+			padding: 32px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__notice--error, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__notice--error {
+			padding-left: inherit;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons {
+			display: flex;
+			align-items: baseline;
+			justify-content: flex-end;
+			padding-top: 20px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit {
+			display: flex;
+			width: auto;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:after, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:after {
+				background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.084 2.159L2 .243l9.9 9.9L2 20.041.084 18.126l7.983-7.984z' fill='%23fff'/%3E%3C/svg%3E");
+				background-repeat: no-repeat;
+				background-size: contain;
+				content: '';
+				display: block;
+				align-self: center;
+				height: 10px;
+				width: 10px;
+				margin-left: 12px
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:active:after, .event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:hover:after, .event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:focus:after, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:active:after, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:hover:after, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:focus:after {
+					background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.084 2.159L2 .243l9.9 9.9L2 20.041.084 18.126l7.983-7.984z' fill='%23fff'/%3E%3C/svg%3E");
+				}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:disabled:after, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form-buttons-button-edit:disabled:after {
+					background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='12' height='20' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M.084 2.159L2 .243l9.9 9.9L2 20.041.084 18.126l7.983-7.984z' fill='%23d5d5d5'/%3E%3C/svg%3E");
+				}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message {
+			display: flex;
+			align-items: center;
+			background-color: rgba(51,74,255, 0.07);
+			border-radius: 4px;
+			padding: 20px 16px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error,
+			.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error.tribe-tickets__manual-attendees-message,
+			.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error,
+			.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error.tribe-tickets__manual-attendees-message {
+				background-color: rgba(218,57,77, 0.08);
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--success-icon, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--success-icon {
+			display: inline-block;
+			width: 16px;
+			height: 16px;
+			margin-right: 12px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--success-icon path, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--success-icon path {
+				stroke: #141827;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon {
+			display: inline-block;
+			margin-right: 12px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon circle, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon circle {
+				stroke: #141827;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon circle#dot, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon circle#dot {
+				stroke: transparent;
+				fill: #141827;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon path, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message--error-icon path {
+				stroke: #141827;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-text, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-text {
+			font-weight: bold;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-link, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-link {
+			color: #334aff;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-price, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-price {
+			padding: 12px 0 28px 0;
+			color: rgba(20,24,39, 0.62);
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select {
+			align-items: center;
+			display: flex;
+			flex-wrap: nowrap;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select-remaining, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select-remaining {
+			min-width: 120px;
+			padding-bottom: 12px;
+			padding-left: 12px;
+			text-align: right;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select-remaining.tribe-tickets__manual-attendees-tickets-select-remaining--rsvp, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-tickets-select-remaining.tribe-tickets__manual-attendees-tickets-select-remaining--rsvp {
+				min-width: 160px;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info {
+			padding-bottom: 12px;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-original, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-original {
+			color: #5d5d5d;
+			font-weight: 400;
+			text-decoration: line-through;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-suffix, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-suffix {
+			color: #5d5d5d;
+			font-weight: 400;
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-suffix small, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-ticket-info-price-suffix small {
+				font-size: 100%;
+			}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-resend-email, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-resend-email {
+			margin-top: 12px;
+		}
+/*
+	Style the report page add attendee button so it is matches the styles of the other links/buttons in the action area.
+ */
+.tribe-report-page .attendees-actions button.add_attendee {
+			float: left;
+			margin: 1px 8px 0 0;
+		}
+@media(min-width: 768px) {
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees {
+			border-radius: 4px;
+			height: auto
+	}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__close-button, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-modal__close-button {
+				top: 20px
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form,
+		.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-success,
+		.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-form,
+		.tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-success {
+				border-top-style: solid
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message {
+				padding: 16px
+		}
+.event-tickets .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-price, .tribe-common .tribe-dialog__wrapper.tribe-modal__wrapper--manual-attendees .tribe-tickets__manual-attendees-message-price {
+				padding: 10px 0 28px 0
+		}
+		}

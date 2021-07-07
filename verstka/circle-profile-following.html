@@ -1,0 +1,400 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="shortcut icon" href="favicon.ico">
+<title>Circle Profile - Main (demo)</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="flex">
+      <div class="header-left">
+        <a href="/" class="logo">
+          <img src="img/svg/logo.svg" alt="">
+        </a>
+        <form action="" class="form-search">
+          <button>
+            <img src="img/svg/search.svg" alt="">
+          </button>
+          <input type="text" placeholder="Search..." class="search-input-placeholder-js">
+        </form>
+      </div>
+
+      <div class="menu-wrapp" id="menuModal">
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">Events & Circles</a></li>
+          <li><a href="#">Following</a></li>
+          <li class="-works"><a href="#">How it Works</a></li>
+        </ul>
+        <div class="create">
+          <a href="javascript:void(0);" onclick="$('.create-list').slideToggle();">Create</a>
+          <ul class="create-list">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="smile">
+          <a href="#">
+            <svg width="106" height="106" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-smile"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <button class="header__burger">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <!--        <svg width="32" height="21" aria-hidden="true">-->
+        <!--          <use xlink:href="#icon-burger" class="burger"></use>-->
+        <!--          <use xlink:href="#icon-burger-active" class="burger-active"></use>-->
+        <!--        </svg>-->
+      </button>
+    </div>
+  </div>
+</header>
+<section class="section-banner">
+  <div class="baner-default " style="background: url(img/ban-backg.jpg)">
+  </div>
+</section>
+<main class="page-user circle-profile">
+  <div class="container">
+    <div class="row justify-content-between">
+      <aside class="sidebar col ">
+        <div class="sidebar-banner-top">
+          <div href="#" class="smile">
+            <svg width="199" height="199" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-circle"></use>
+            </svg>
+          </div>
+        </div>
+        <div class="h3">PACHA IBIZA</div>
+        <p>Discover the 24h Pacha Ibiza lifestyle</p>
+        <ul class="social">
+          <li>
+            <svg width="17" height="17" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-insta"></use>
+            </svg>
+            <a href="">@pachaofficial</a>
+          </li>
+          <li>
+            <svg width="17" height="17" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-site"></use>
+            </svg>
+            <a href="">https://pacha.com/</a>
+          </li>
+          <li>
+            <svg width="17" height="13" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-telegram"></use>
+            </svg>
+            <a href="">@pacha</a>
+          </li>
+        </ul>
+        <a href="#" class="btn btn_green">FOLLOW</a>
+      </aside>
+      <article class="content col">
+        <ul class="tabs nav nav-tabs nav-tabs-flex" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-1" role="tab"
+               aria-controls="tab-1" aria-selected="false">All Events  </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-2" role="tab"
+               aria-controls="tab-2" aria-selected="false">On Sale <span>2</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-3" role="tab"
+               aria-controls="tab-3" aria-selected="false">Past </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-4" role="tab"
+               aria-controls="tab-4" aria-selected="false">Liked</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" data-toggle="tab" href="#tab-5" role="tab"
+               aria-controls="tab-5" aria-selected="false">Following <span>45</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link " data-toggle="tab" href="#tab-6" role="tab"
+               aria-controls="tab-6" aria-selected="false">Followers <span>1.5K</span></a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade" id="tab-1" role="tabpanel">
+            <ul class="events-list">
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+              <li>
+                <div class="img"><img src="img/circle-profile/2.jpg" alt=""></div>
+                <div class="h4">Insane  - <span>03.10</span></div>
+              </li>
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+              <li class="last">
+                <div class="img"><img src="img/circle-profile/2.jpg" alt=""></div>
+                <div class="h4">Insane  - <span>03.10</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="tab-2" role="tabpanel">
+            <ul class="events-list">
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+                <div class="flex">
+                  <svg width="29" height="26" aria-hidden="true">
+                    <use xlink:href="#icon-like"></use>
+                  </svg>
+                  <a href="#" class="btn btn_green">BUY NFT</a>
+                </div>
+              </li>
+              <li>
+                <div class="img"><img src="img/circle-profile/2.jpg" alt=""></div>
+                <div class="h4">Insane  - <span>03.10</span></div>
+                <div class="flex">
+                  <svg width="29" height="26" aria-hidden="true">
+                    <use xlink:href="#icon-like"></use>
+                  </svg>
+                  <a href="#" class="btn btn_green">BUY NFT</a>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="tab-3" role="tabpanel">
+            <ul class="events-list">
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade" id="tab-4" role="tabpanel">
+            <ul class="events-list sm">
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+              <li>
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+              <li class="last">
+                <div class="img"><img src="img/circle-profile/1.jpg" alt=""></div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </li>
+            </ul>
+          </div>
+          <div class="tab-pane fade show active" id="tab-5" role="tabpanel">
+            <div class="following-wrapp">
+              <div class="item">
+                <div class="icon">
+                  <div class="img">
+                    <img src="img/following-img.jpg" alt="">
+                  </div>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Paris Hilton</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+              <div class="item">
+                <div class="icon">
+                  <svg width="87" height="87" aria-hidden="true" class="svg-smile">
+                    <use xlink:href="#icon-smile"></use>
+                  </svg>
+                </div>
+                <div class="item-desc">
+                  <div class="price">Party Animal</div>
+                </div>
+              </div>
+            </div>
+            <button class="arrow-next">
+              <svg width="32" height="32" aria-hidden="true" class="svg-smile">
+                <use xlink:href="#icon-arrow-right"></use>
+              </svg>
+            </button>
+          </div>
+          <div class="tab-pane fade" id="tab-6" role="tabpanel">
+            Followers <span>1.5K</span>
+          </div>
+        </div>
+      </article>
+    </div>
+  </div>
+
+
+</main>
+
+
+<footer class="footer">
+</footer>
+<div class="darken"></div>
+<!-- Modal -->
+<div class="modal fade modal_user_login" id="modal_user_login" tabindex="-1" role="dialog"
+     aria-labelledby="modal_user_loginLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="h3">Гость</div>
+
+      <a href="#" class="btn btn_grean" data-toggle="modal" data-target="#modal_user_loggedin">Авторизация</a>
+      <a href="#" class="btn btn_border_green">Регистрация</a>
+
+      </form>
+    </div>
+  </div>
+</div>
+<div class="modal -fadeIn" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="modalMenuLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="container">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="./img/svg/close2.svg" alt="mydance"></span>
+        </button>
+        <div class="row modalMenu-text">
+          <div class="col-lg-4">
+            <div class="h2">Меню</div>
+            <ul class="user-info">
+              <li>
+                <div class="h4">Иванова Маша</div>
+                <p>@i.masha</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="h5">Поиск:</div>
+            <form action="" class="form">
+              <ul class="result">
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Танцевальные школы</a></li>
+                    <li><a href="#">Педагогы-хореографы</a></li>
+                    <li><a href="#">Онлайн курсов</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Танцевальные проекты</a></li>
+                    <li><a href="#">Шоу-балеты</a></li>
+                    <li><a href="#">Мастер-классы</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Афиша мероприятий</a></li>
+                    <li><a href="#">Dance Hunter</a></li>
+                    <li><a href="#">Аренда залов</a></li>
+                    <li><a href="#">Организация видеосъемки</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Рейтинг ТШ и ПХ</a></li>
+                    <li><a href="#">Новости танцевального мира</a></li>
+                    <li><a href="#">Видео от лучших хореографов</a></li>
+                    <li><a href="#">Подборка фильмов о танцах</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.min.js"></script>
+<script>
+
+</script>
+</body>
+</html>

@@ -1,0 +1,121 @@
+2021-06-09T03:07:08+00:00 CRITICAL syntax error, unexpected ',' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T03:09:55+00:00 CRITICAL Uncaught Error: Call to undefined function arrat() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php:27
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T03:11:59+00:00 CRITICAL Uncaught Error: Call to undefined function arrat() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php:27
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T03:12:12+00:00 CRITICAL Uncaught Error: Call to undefined function arrat() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php:27
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T03:13:12+00:00 CRITICAL Uncaught Error: Call to undefined function arrat() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php:27
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T03:13:26+00:00 CRITICAL Uncaught Error: Call to undefined function arrat() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php:27
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php on line 27
+
+2021-06-09T06:15:13+00:00 CRITICAL syntax error, unexpected '{' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/add.php on line 72
+
+2021-06-09T06:15:48+00:00 CRITICAL syntax error, unexpected '{' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/add.php on line 72
+
+2021-06-09T08:23:45+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php(4504): wp_check_invalid_utf8(Object(WP_Error))
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/post.php(1567): esc_attr(Object(WP_Error))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/meta-boxes.php(1388): _wp_post_thumbnail_html(Object(WP_Error), Object(WP_Post))
+#3 [internal function]: post_thumbnail_meta_box(Object(WP_Post), Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/template.php(1389): call_user_func('post_thumbnail_...', Object(WP_Post), Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/post.php(206): re in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php on line 1098
+
+2021-06-09T08:23:53+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php(4504): wp_check_invalid_utf8(Object(WP_Error))
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/post.php(1567): esc_attr(Object(WP_Error))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/meta-boxes.php(1388): _wp_post_thumbnail_html(Object(WP_Error), Object(WP_Post))
+#3 [internal function]: post_thumbnail_meta_box(Object(WP_Post), Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/template.php(1389): call_user_func('post_thumbnail_...', Object(WP_Post), Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/post.php(206): re in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php on line 1098
+
+2021-06-09T08:24:33+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php:1098
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php(4504): wp_check_invalid_utf8(Object(WP_Error))
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/post.php(1567): esc_attr(Object(WP_Error))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/meta-boxes.php(1388): _wp_post_thumbnail_html(Object(WP_Error), Object(WP_Post))
+#3 [internal function]: post_thumbnail_meta_box(Object(WP_Post), Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/includes/template.php(1389): call_user_func('post_thumbnail_...', Object(WP_Post), Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/edit-form-advanced.php(681): do_meta_boxes(Object(WP_Screen), 'side', Object(WP_Post))
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/post.php(206): re in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/formatting.php on line 1098
+
+2021-06-09T11:25:02+00:00 CRITICAL Uncaught Error: Call to undefined function upload_product_image() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php:94
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php(113): se13911452_set_avatar_url('http://cryptoti...', 13)
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#4 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php on line 94
+
+2021-06-09T11:28:21+00:00 CRITICAL Uncaught Error: Call to undefined function upload_product_image() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/functions.php:804
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php(97): se13911452_set_avatar_url('/home/c/cryptot...', 13)
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#4 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/functions.php on line 804
+
+2021-06-09T11:45:16+00:00 CRITICAL Uncaught Error: Call to undefined function media_handle_upload() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php:101
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#3 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php on line 101
+
+2021-06-09T12:03:59+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-09T12:08:22+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('<a href="https:...', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('<a href="https:...', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '<a href="https:...', Object(WP_User))
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/ in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+

@@ -1,0 +1,40 @@
+/**
+ * This CSS file was auto-generated via PostCSS
+ *
+ * Contributors should avoid editing this file, but instead edit the associated
+ * src/resources/postcss/ file. For more information, check out our engineering
+ * docs on how we handle CSS in our engineering docs.
+ *
+ * @see: http://moderntribe.github.io/products-engineering/css/
+ */
+
+
+.event-tickets__admin-banner {
+	background-color: #f9f9f9;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	margin: 20px 0;
+	padding: 8px 24px 12px;
+	border-left: 5px solid #0073AA;
+}
+
+	.event-tickets__admin-banner a {
+		text-decoration: none;
+	}
+
+	.event-tickets__admin-banner p.event-tickets__admin-banner-help-text {
+		max-width: 690px;
+	}
+
+.event-tickets__admin-banner-help-links-wrapper {
+	display: flex;
+	max-width: 690px;
+}
+
+.event-tickets__admin-banner-help-links-wrapper div {
+		min-width: 50%;
+	}
+
+.event-tickets__admin-banner-links h3 {
+	font-size: 14px;
+}

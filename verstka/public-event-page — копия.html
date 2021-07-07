@@ -1,0 +1,314 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/main.min.css">
+<link rel="shortcut icon" href="favicon.ico">
+<title>PUBLIC EVENT PAGE</title>
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="flex">
+      <div class="header-left">
+        <a href="/" class="logo">
+          <img src="img/svg/logo.svg" alt="">
+        </a>
+        <form action="" class="form-search">
+          <button>
+            <img src="img/svg/search.svg" alt="">
+          </button>
+          <input type="text" placeholder="Search..." class="search-input-placeholder-js">
+        </form>
+      </div>
+
+      <div class="menu-wrapp" id="menuModal">
+        <ul>
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">Events & Circles</a></li>
+          <li><a href="#">Following</a></li>
+          <li class="works"><a href="#">How it Works</a></li>
+        </ul>
+        <div class="create">
+          <a href="javascript:void(0);" onclick="$('.create-list').slideToggle();">Create</a>
+          <ul class="create-list">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="smile">
+          <a href="#">
+            <svg width="106" height="106" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-smile"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <button class="header__burger">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <!--        <svg width="32" height="21" aria-hidden="true">-->
+        <!--          <use xlink:href="#icon-burger" class="burger"></use>-->
+        <!--          <use xlink:href="#icon-burger-active" class="burger-active"></use>-->
+        <!--        </svg>-->
+      </button>
+    </div>
+  </div>
+</header>
+
+<main class="page-public-event">
+  <div class="container">
+    <div class="row justify-content-between">
+      <aside class="sidebar col lg-hide">
+        <div class="sidebar-top">
+          <svg width="149" height="149" aria-hidden="true">
+            <use xlink:href="#icon-smile-green"></use>
+          </svg>
+          <div>
+            <div class="h3">Paris Hilton</div>
+            <p>Influencer</p>
+          </div>
+        </div>
+        <a href="#" class="sidebar-img"><img src="img/publick-event/publick-event-sidebar.jpg" alt=""></a>
+      </aside>
+      <article class="content col">
+        <ul class="content-public-event-top">
+          <li>
+            <div class="h3">Event name</div>
+            <input type="text">
+          </li>
+          <li>
+            <div class="h3">Location</div>
+            <input type="text">
+          </li>
+          <li>
+            <div class="date-wrapp">
+              <div class="h3">Select date</div>
+              <input type="text" class="datepicker" placeholder="DD MM YYYY">
+              <i class="fa fa-calendar" aria-hidden="true"></i>
+            </div>
+
+            <div class="time-wrapp">
+              <div class="h3">Select Time</div>
+              <input type="time" value="12:00" class="time-input">
+            </div>
+
+          </li>
+          <li>
+            <div class="h3">Description</div>
+            <input type="text">
+          </li>
+          <li>
+            <div class="inputfile-box">
+              <input type="file" name="file" id="input_sv" class="inputfile"
+                     data-multiple-caption="{count} files selected" multiple="">
+              <label for="input_sv">
+                <strong></strong>
+                <span>Upload Banner</span>
+              </label>
+            </div>
+          </li>
+          <li>
+<!--            <button type="submit" class="btn btn_light_green" value="">Publish Event</button>-->
+            <div class="select">
+              <button type="button" class="btn btn_green" onclick="$('.select-list').slideToggle();">Publish Event</button>
+              <ul class="select-list" style="display: block;">
+                <li><a href="#">As Circle</a></li>
+                <li><a href="#">As Influencer</a></li>
+              </ul>
+            </div>
+
+          </li>
+        </ul>
+
+        <ul class="tabs nav nav-tabs" id="myTab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active"  data-toggle="tab" href="#your-event" role="tab"
+               aria-controls="your-event"
+               aria-selected="false">Your Event</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link "  data-toggle="tab" href="#manage-tickets" role="tab"
+               aria-controls="manage-tickets" aria-selected="false">Manage Tickets</a>
+          </li>
+        </ul>
+
+        <div class="tab-content" id="myTabContent">
+          <div class="tab-pane fade show active" id="your-event" role="tabpanel" >
+            <div class="your-event">
+              <div class="img">
+                <div class="img-in">
+                  <img src="img/publick-event/publick-event-sidebar.jpg" alt="">
+                </div>
+                <div class="h4">Flower Power  - <span>22.07</span></div>
+              </div>
+              <div class="desc">
+                <div class="h3">COUNTDOWN TO EVENT</div>
+                <div class="time">
+<!--                  <div class="time-number">-->
+<!--                    <div class="item">00</div>-->
+<!--                    <div class="item">:</div>-->
+<!--                    <div class="item">08</div>-->
+<!--                    <div class="item">:</div>-->
+<!--                    <div class="item">54</div>-->
+<!--                  </div>-->
+<!--                  <div class="time-name">-->
+<!--                    <div class="item">hours</div>-->
+<!--                    <div class="item">minutes</div>-->
+<!--                    <div class="item">seconds</div>-->
+<!--                  </div>-->
+                  <div id="countdown"></div>
+                </div>
+
+
+
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane fade" id="manage-tickets" role="tabpanel" >
+            <ul class="list-img">
+              <li>
+                <a href="#" class="img">
+                  <img src="img/publick-event/list-1.jpg" alt="">
+                </a>
+                <div class="h4">Basic Ticket - $100</div>
+              </li>
+              <li>
+                <a href="#" class="img">
+                  <img src="img/publick-event/list-2.jpg" alt="">
+                </a>
+                <div class="h4">Vip Ticket - $500</div>
+              </li>
+              <li>
+                <a href="#" class="img">
+                  <img src="img/publick-event/list-3.jpg" alt="">
+                </a>
+                <div class="h4">Diamond Ticket - $1000</div>
+              </li>
+              <li>
+                <a href="#" class="img">
+                  <img src="img/publick-event/list-4.jpg" alt="">
+                </a>
+                <div class="h4">Create new ticket</div>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </article>
+    </div>
+  </div>
+
+
+
+
+</main>
+
+
+<footer class="footer">
+</footer>
+<div class="darken"></div>
+<!-- Modal -->
+<div class="modal fade modal_user_login" id="modal_user_login" tabindex="-1" role="dialog"
+     aria-labelledby="modal_user_loginLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+
+      <div class="h3">Гость</div>
+
+      <a href="#" class="btn btn_grean" data-toggle="modal" data-target="#modal_user_loggedin">Авторизация</a>
+      <a href="#" class="btn btn_border_green">Регистрация</a>
+
+      </form>
+    </div>
+  </div>
+</div>
+<div class="modal -fadeIn" id="modalMenu" tabindex="-1" role="dialog" aria-labelledby="modalMenuLabel"
+     aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="container">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true"><img src="./img/svg/close2.svg" alt="mydance"></span>
+        </button>
+        <div class="row modalMenu-text">
+          <div class="col-lg-4">
+            <div class="h2">Меню</div>
+            <ul class="user-info">
+              <li>
+                <div class="h4">Иванова Маша</div>
+                <p>@i.masha</p>
+              </li>
+            </ul>
+          </div>
+          <div class="col-lg-8">
+            <div class="h5">Поиск:</div>
+            <form action="" class="form">
+              <ul class="result">
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Танцевальные школы</a></li>
+                    <li><a href="#">Педагогы-хореографы</a></li>
+                    <li><a href="#">Онлайн курсов</a></li>
+                    <li><a href="#">Магазины</a></li>
+                    <li><a href="#">Танцевальные проекты</a></li>
+                    <li><a href="#">Шоу-балеты</a></li>
+                    <li><a href="#">Мастер-классы</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Афиша мероприятий</a></li>
+                    <li><a href="#">Dance Hunter</a></li>
+                    <li><a href="#">Аренда залов</a></li>
+                    <li><a href="#">Организация видеосъемки</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <ul class="result-in">
+                    <li><a href="#">Рейтинг ТШ и ПХ</a></li>
+                    <li><a href="#">Новости танцевального мира</a></li>
+                    <li><a href="#">Видео от лучших хореографов</a></li>
+                    <li><a href="#">Подборка фильмов о танцах</a></li>
+                  </ul>
+                </li>
+
+              </ul>
+            </form>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script src="js/main.min.js"></script>
+
+<script type="text/javascript">
+
+  jQuery(function($){
+      $('#countdown').timeTo({
+        timeTo: new Date(new Date('Wed Jun 30 2021 09:00:00 GMT+0300 (Восточная Европа, летнее время)')),
+        displayDays: 0,
+        theme: "black",
+        displayCaptions: true,
+        fontSize: 72,
+        captionSize: 18,
+        lang: 'en'
+      }, 1000);
+
+
+  })
+
+</script>
+</body>
+</html>

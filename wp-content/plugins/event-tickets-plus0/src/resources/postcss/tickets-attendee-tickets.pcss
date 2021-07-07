@@ -1,0 +1,170 @@
+/**
+ * Event Tickets Plus - Attendee Tickets styles.
+ *
+ * @since 5.1.0
+ */
+
+@import "utilities/_all.pcss";
+
+.event-tickets,
+.entry .entry-content .event-tickets {
+
+	.tribe-tickets__attendee-tickets-title {
+		margin-bottom: var(--spacer-4);
+	}
+
+	.tribe-tickets__attendee-tickets-item {
+		background-color: var(--color-background);
+		border: solid var(--color-border-secondary);
+		border-width: 1px 1px 1px 4px;
+		clear: both;
+		padding: var(--spacer-3);
+		position: relative;
+
+		&:after,
+		&:before {
+			background: var(--color-border-secondary);
+			content: '';
+			display: block;
+			height: var(--spacer-0);
+			left: calc( -1 * var(--spacer-0) );
+			position: absolute;
+			width: var(--spacer-0);
+		}
+
+		&:after {
+			bottom: -1px;
+		}
+
+		&:before {
+			top: -1px;
+		}
+
+		+ .tribe-tickets__attendee-tickets-item {
+			margin-top: var(--spacer-3);
+		}
+	}
+
+	.tribe-tickets__attendee-tickets-item--has-focus {
+		border-left-color: var(--color-icon-focus);
+
+		&:after,
+		&:before {
+			background: var(--color-icon-focus);
+		}
+	}
+
+	.tribe-tickets__attendee-tickets-item--has-error {
+		border-left-color: var(--color-icon-error);
+
+		&:after,
+		&:before {
+			background: var(--color-icon-error)
+		}
+	}
+
+	.tribe-tickets__attendee-tickets {
+		margin-top: var(--spacer-5);
+
+		@media(--viewport-medium) {
+			margin-top: var(--spacer-3);
+		}
+	}
+
+	.tribe-tickets__attendee-tickets-item.tribe-tickets__form {
+
+		.tribe-tickets__form-field {
+			display: flex;
+			flex-flow: column nowrap;
+			margin-bottom: var(--spacer-3);
+
+			&:last-child {
+				margin-bottom: 0;
+			}
+
+			@media(--viewport-medium) {
+				flex-flow: row nowrap;
+			}
+		}
+
+		.tribe-tickets__form-field-label {
+			color: var(--color-text-primary);
+			display: block;
+			font-weight: var(--font-weight-regular);
+			margin-bottom: var(--spacer-0);
+
+			@media(--viewport-medium) {
+				flex: 0 0 134px;
+				margin-right: var(--spacer-4);
+			}
+		}
+	}
+
+	/* @todo: check if we can deprecate this, it's not being used. */
+	.tribe-tickets__attendee-tickets-error {
+		color: red;
+		display: none;
+		padding: 30px 0 0 0;
+	}
+
+	.tribe-tickets__attendee-tickets-success {
+		color: #19d900;
+		display: none;
+		padding: 30px 0 0 0;
+	}
+
+	.tribe-tickets__attendee-tickets-container {
+		display: none;
+
+		+ .tribe-tickets__attendee-tickets-container {
+			margin-top: var(--spacer-5);
+		}
+	}
+
+	.tribe-tickets__attendee-tickets-container--has-tickets {
+		display: block;
+		margin-bottom: var(--spacer-3);
+	}
+
+
+	/* @todo: check if this is still relevant. Can't find it. */
+	.tribe-tickets__button--next {
+		align-items: center;
+		border: 1px solid var(--color-border-secondary);
+		background-color: var(--color-accent-primary);
+		color: var(--color-background);
+		display: inline-flex;
+		justify-content: center;
+		min-height: 54px;
+		max-width: 100%;
+
+		&:hover,
+		&:focus {
+			color: var(--color-background);
+		}
+	}
+
+	.tribe-tickets__attendee-tickets-footer {
+		align-items: center;
+		display: flex;
+		justify-content: flex-end;
+	}
+
+	.tribe-tickets__attendee-tickets-footer-divider {
+		color: var(--color-text-secondary);
+		font-family: var(--font-family-sans-serif);
+		margin-right: var(--spacer-4);
+	}
+
+	.tribe-tickets__attendee-tickets-footer-submit {
+		padding: 11px 13px;
+		white-space: nowrap;
+	}
+
+	.tribe-tickets__attendee-tickets-footer-checkout-button {
+
+		&.tribe-common-c-btn {
+			white-space: nowrap;
+		}
+	}
+}

@@ -1,0 +1,78 @@
+2021-06-26T14:17:13+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-26T14:20:49+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_role() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php:116
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(730): require_once()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(676): load_template('/home/c/cryptot...', true, Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php(6): get_header()
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#7 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php on line 116
+
+2021-06-26T14:20:50+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_role() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php:116
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(730): require_once()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(676): load_template('/home/c/cryptot...', true, Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/404.php(12): get_header()
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#7 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php on line 116
+
+2021-06-26T14:21:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_role() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php:116
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(730): require_once()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(676): load_template('/home/c/cryptot...', true, Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/personal.php(6): get_header()
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#7 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php on line 116
+
+2021-06-26T14:21:15+00:00 CRITICAL Uncaught Error: Call to undefined function get_current_user_role() in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php:116
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(730): require_once()
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template.php(676): load_template('/home/c/cryptot...', true, Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/general-template.php(48): locate_template(Array, true, true, Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/404.php(12): get_header()
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/template-loader.php(106): include('/home/c/cryptot...')
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-blog-header.php(19): require_once('/home/c/cryptot...')
+#6 /home/c/cryptotik/cryptotik.beget.tech/public_html/index.php(17): require('/home/c/cryptot...')
+#7 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/header.php on line 116
+
+2021-06-26T16:55:38+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-26T20:11:13+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+

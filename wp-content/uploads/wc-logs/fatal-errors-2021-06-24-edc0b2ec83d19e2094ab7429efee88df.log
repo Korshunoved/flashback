@@ -1,0 +1,49 @@
+2021-06-24T10:35:43+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('<a href="https:...', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('<a href="https:...', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '<a href="https:...', Object(WP_User))
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/ in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-24T13:33:35+00:00 CRITICAL syntax error, unexpected end of file in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/functions.php on line 956
+
+2021-06-24T13:33:43+00:00 CRITICAL syntax error, unexpected end of file in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/functions.php on line 956
+
+2021-06-24T14:01:23+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-24T23:46:01+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php on line 120
+
+2021-06-24T23:46:33+00:00 CRITICAL syntax error, unexpected '}', expecting end of file in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/vendorinfo.php on line 120
+
+2021-06-24T23:49:04+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-24T23:49:30+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
+2021-06-24T23:59:16+00:00 CRITICAL syntax error, unexpected ')' in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/themes/twentytwentyone/eventpub.php on line 55
+

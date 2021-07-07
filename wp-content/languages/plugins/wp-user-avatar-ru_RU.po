@@ -1,0 +1,337 @@
+# Translation of Plugins - User Registration, User Profiles, Login &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - User Registration, User Profiles, Login &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-05-20 09:13:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - User Registration, User Profiles, Login &amp; Membership – ProfilePress (Formerly WP User Avatar) - Stable (latest release)\n"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+msgid "URL"
+msgstr "Ссылка"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:356
+#: src/Themes/DragDrop/AbstractBuildScratch.php:415
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:157
+msgid "Left"
+msgstr "Слева"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:416
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:156
+msgid "Center"
+msgstr "В центре"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:357
+#: src/Themes/DragDrop/AbstractBuildScratch.php:417
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:158
+msgid "Right"
+msgstr "Справа"
+
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:244
+#: src/Themes/DragDrop/AbstractMemberDirectoryTheme.php:832
+msgid "Search"
+msgstr "Поиск"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+msgid "Caption"
+msgstr "Заголовок"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:187
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:197
+msgid "Insert into Post"
+msgstr "Вставить в Сообщение"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:177
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "wp_user_avatar_target"
+msgstr "wp_user_avatar_target"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:178
+msgid "Open link in a new window"
+msgstr "Открыть ссылку в новом окне"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:182
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_caption"
+msgstr "wp_user_avatar_caption"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:191
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "wp_user_avatar_upload"
+msgstr "wp_user_avatar_upload"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:154
+msgid "wp_user_avatar_align"
+msgstr "wp_user_avatar_align"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:153
+msgid "Alignment"
+msgstr "Выравнивание"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:164
+msgid "wp_user_avatar_link"
+msgstr "wp_user_avatar_link"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:163
+msgid "Link To"
+msgstr "Ссылка на"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:166
+msgid "Image File"
+msgstr "Файл изображения"
+
+#: src/ContentProtection/views/view.access-condition.php:109
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:167
+msgid "Custom URL"
+msgstr "Пользовательский URL"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:171
+msgid "wp_user_avatar_link_external_section"
+msgstr "wp_user_avatar_link_external_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:172
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:173
+msgid "wp_user_avatar_link_external"
+msgstr "wp_user_avatar_link_external"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:83
+#: src/Themes/DragDrop/AbstractBuildScratch.php:224
+#: src/Themes/DragDrop/AbstractBuildScratch.php:499
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:71
+msgid "Width"
+msgstr "Ширина"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:73
+msgid "Height"
+msgstr "Высота"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:177
+msgid "Profile updated."
+msgstr "Профиль обновлён."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:162
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:142
+msgid "Thumbnail"
+msgstr "Миниатюра"
+
+#: src/ContentProtection/WPListTable.php:84
+msgid "Edit"
+msgstr "Изменить"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:168
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:254
+msgid "Undo"
+msgstr "Отмена"
+
+#: src/ContentProtection/ContentConditions.php:232
+#: src/ContentProtection/ContentConditions.php:245
+#: src/ContentProtection/ContentConditions.php:257
+#: src/ContentProtection/ContentConditions.php:331
+#: src/ContentProtection/ContentConditions.php:367
+msgid "Select %s"
+msgstr "Выбрать %s"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:165
+msgid "Remove Image"
+msgstr "Удалить изображение"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:207
+msgid "This file is not an image. Please try another."
+msgstr "Этот файл не является изображением. Пожалуйста, попробуйте другой."
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+msgid "User Name"
+msgstr "Имя пользователя"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:342
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:140
+msgid "Large"
+msgstr "Большой"
+
+#: src/Themes/DragDrop/AbstractBuildScratch.php:341
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:141
+msgid "Medium"
+msgstr "Средний"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:143
+msgid "Custom"
+msgstr "Пользовательский"
+
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:75
+#: deprecated/wp-user-avatar/includes/wpua-functions.php:81
+msgid "Image"
+msgstr "Изображение"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:94
+msgid "Disable Gravatar and use only local avatars"
+msgstr "Отключить Gravatar и использовать только локальные аватары"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+msgid "Insert"
+msgstr "Вставить"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:13
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:193
+msgid "[avatar_upload]"
+msgstr "[avatar_upload]"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:60
+msgid "Description:"
+msgstr "Описание:"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:65
+msgid "Automatically add paragraphs"
+msgstr "Автоматически добавлять абзацы"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:192
+msgid "Upload"
+msgstr "Загрузить"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:151
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:30
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:62
+msgid "Maximum upload file size: %d%s."
+msgstr "Максимальный размер загружаемого файла: %d%s."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:152
+msgid "Allowed Files"
+msgstr "Разрешённые файлы"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:152
+msgid "<code>jpg jpeg png gif</code>"
+msgstr "<code>jpg jpeg png gif</code>"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:158
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:139
+msgid "Original Size"
+msgstr "Оригинальный размер"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:28
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:60
+msgid "%s exceeds the maximum upload size for this site."
+msgstr "%s превышает максимальны размер загрузки для этого сайта."
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:137
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:183
+msgid "wp_user_avatar_size"
+msgstr "wp_user_avatar_size"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:147
+msgid "wp_user_avatar_size_number_section"
+msgstr "wp_user_avatar_size_number_section"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:149
+msgid "wp_user_avatar_size_number"
+msgstr "wp_user_avatar_size_number"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:116
+msgid "For users without a custom avatar of their own, you can either display a generic logo or a generated one based on their e-mail address."
+msgstr "Для пользователей, не выбравших себе аватар самостоятельно, вы можете отобразить основной логотип или сгенерированный на основе адреса их электронной почты."
+
+#: src/Admin/SettingsPages/DragDropBuilder/Fields/EditProfile/ShowProfilePicture.php:30
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:136
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:148
+msgid "Size"
+msgstr "Размер"
+
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:126
+#: deprecated/wp-user-avatar/includes/tinymce/window.php:127
+msgid "wp_user_avatar_user"
+msgstr "wp_user_avatar_user"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:77
+msgid "Crop avatars to exact dimensions"
+msgstr "Обрезать аватары до точных размеров"
+
+#: src/Themes/DragDrop/AbstractTheme.php:113
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-shortcode.php:202
+msgid "Update Profile"
+msgstr "Обновить профиль"
+
+#: src/Widgets/Form.php:65 src/Widgets/UserPanel.php:74
+#: src/Widgets/TabbedWidget.php:461
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-widget.php:56
+msgid "Title:"
+msgstr "Заголовок:"
+
+#: src/Admin/SettingsPages/EmailSettings/DefaultTemplateCustomizer.php:283
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:98
+#: src/ShortcodeParser/MyAccount/edit-profile.tmpl.php:117
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:254
+msgid "Remove"
+msgstr "Убрать"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:211
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:236
+msgid "Memory exceeded. Please try another smaller file."
+msgstr "Недостаточно памяти. Пожалуйста, попробуйте другой файл, с меньшим размером."
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:215
+msgid "Unable to create directory %s. Is its parent directory writable by the server?"
+msgstr "Невозможно создать директорию %s. Родительская директория доступна для записи?"
+
+#: deprecated/wp-user-avatar/includes/wpua-options-page.php:67
+msgid "Resize avatars on upload"
+msgstr "Изменить размер аватаров при загрузке"
+
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:89
+#: src/Admin/SettingsPages/DragDropBuilder/FieldBase.php:232
+#: src/Admin/SettingsPages/GeneralSettings.php:26
+#: src/Admin/SettingsPages/GeneralSettings.php:27
+#: src/Classes/Miscellaneous.php:17
+msgid "Settings"
+msgstr "Настройки"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:212
+msgid "Mystery Man"
+msgstr "Таинственный Человек"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:213
+msgid "Blank"
+msgstr "Пустой"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:214
+msgid "Gravatar Logo"
+msgstr "Логотип Gravatar"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:215
+msgid "Identicon (Generated)"
+msgstr "Identicon (Сгенерировано)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:216
+msgid "Wavatar (Generated)"
+msgstr "Wavatar (Сгенерировано)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:217
+msgid "MonsterID (Generated)"
+msgstr "MonsterID (Сгенерировано)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:218
+msgid "Retro (Generated)"
+msgstr "Retro (Сгенерировано)"
+
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:142
+#: deprecated/wp-user-avatar/includes/class-wp-user-avatar-admin.php:253
+msgid "Choose Image"
+msgstr "Выбрать изображение"
+
+#. Plugin Name of the plugin
+msgid "ProfilePress"
+msgstr "ProfilePress"
+
+#. Plugin URI of the plugin
+#. Author URI of the plugin
+msgid "https://profilepress.net"
+msgstr "https://profilepress.net/"

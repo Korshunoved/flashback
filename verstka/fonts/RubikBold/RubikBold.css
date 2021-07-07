@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RubikBold';
+    src: url('fonts/RubikBold.eot');
+    src: url('fonts/RubikBold.eot') format('embedded-opentype'),
+         url('fonts/RubikBold.woff2') format('woff2'),
+         url('fonts/RubikBold.woff') format('woff'),
+         url('fonts/RubikBold.ttf') format('truetype'),
+         url('fonts/RubikBold.svg#RubikBold') format('svg');
+}

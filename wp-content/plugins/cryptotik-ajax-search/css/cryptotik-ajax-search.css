@@ -1,0 +1,24 @@
+.search-suggestion {
+    position: absolute;
+    width: 300px;
+    max-height: 400px;
+    background-color: #fff;
+    box-shadow: 0 0 1px 2px #000 inset;
+    color: #000;
+    border-radius: 7px;
+    overflow: hidden;
+}
+.search-suggestion__block {
+    padding: 1rem;
+}
+.search-suggestion__title {
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+.search-suggestion__item,
+.search-suggestion__item a {
+    color: #000;
+}
+.search-suggestion__item a:hover {
+    color: #f5175d;
+}

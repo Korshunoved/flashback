@@ -1,0 +1,88 @@
+</head>
+<body>
+<header class="header">
+  <div class="container">
+    <div class="flex">
+      <div class="header-left">
+        <a href="/" class="logo">
+          <img src="img/svg/logo.svg" alt="">
+        </a>
+        <form action="" class="form-search">
+          <button>
+            <img src="img/svg/search.svg" alt="">
+          </button>
+          <input type="text" placeholder="Search..." class="search-input-placeholder-js">
+        </form>
+      </div>
+
+      <div class="menu-wrapp" id="menuModal">
+        <ul class="lg-hide">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="#">Events & Circles</a></li>
+          <li><a href="#">Following</a></li>
+          <li class="works"><a href="#">How it Works</a></li>
+        </ul>
+        <div class="create lg-hide">
+          <a href="javascript:void(0);" onclick="$('.create-list').slideToggle();">Create</a>
+          <ul class="create-list">
+            <li><a href="#">Log in</a></li>
+            <li><a href="#">Sign Up</a></li>
+          </ul>
+        </div>
+        <div class="lg-visible">
+          <ul>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">My Items</a></li>
+            <li><a href="#">Following</a></li>
+            <li><a href="#">Activity</a></li>
+          </ul>
+          <ul class="tabs nav tabs-menu-lg">
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link active" data-toggle="tab" href="#tab-sidebar-1" role="tab" aria-controls="tab-sidebar-1" aria-selected="false">Ticket Management</a></li>
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-2" role="tab" aria-controls="tab-sidebar-2" aria-selected="false">Add Contributors</a></li>
+            <li class="nav-item ">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-3" role="tab" aria-controls="tab-sidebar-3"
+                 aria-selected="false">Status</a></li>
+            <li class="nav-item">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-4" role="tab" aria-controls="tab-sidebar-4" aria-selected="false">Manage Profile </a></li>
+            <li class="nav-item verify-ticket">
+              <a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-5" role="tab" aria-controls="tab-sidebar-5" aria-selected="false">Verify Ticket</a>
+              <svg width="33" height="29" aria-hidden="true" class="svg-smile">
+                <use xlink:href="#icon-verify-ticket-md"></use>
+              </svg>
+            </li>
+            <li class="nav-item"><a onclick="hide_menu()" class="nav-link " data-toggle="tab" href="#tab-sidebar-5" role="tab" aria-controls="tab-sidebar-6" aria-selected="false">Withdraw</a></li>
+          </ul>
+        </div>
+        <div class="smile">
+          <a href="#">
+            <svg width="106" height="106" aria-hidden="true" class="svg-smile">
+              <use xlink:href="#icon-smile"></use>
+            </svg>
+          </a>
+        </div>
+      </div>
+      <button class="header__burger">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <!--        <svg width="32" height="21" aria-hidden="true">-->
+        <!--          <use xlink:href="#icon-burger" class="burger"></use>-->
+        <!--          <use xlink:href="#icon-burger-active" class="burger-active"></use>-->
+        <!--        </svg>-->
+      </button>
+    </div>
+  </div>
+</header>
+
+<script >
+  function hide_menu () {
+    var burger = document.querySelector('.header__burger'),
+     canvas = document.querySelector('.darken'),
+     modal = document.getElementById('menuModal')
+    burger.classList.remove('active')
+    canvas.classList.remove('block')
+    modal.classList.remove('active')
+  }
+</script>

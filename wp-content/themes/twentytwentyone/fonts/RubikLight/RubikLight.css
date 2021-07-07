@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'RubikLight';
+    src: url('fonts/RubikLight.eot');
+    src: url('fonts/RubikLight.eot') format('embedded-opentype'),
+         url('fonts/RubikLight.woff2') format('woff2'),
+         url('fonts/RubikLight.woff') format('woff'),
+         url('fonts/RubikLight.ttf') format('truetype'),
+         url('fonts/RubikLight.svg#RubikLight') format('svg');
+}

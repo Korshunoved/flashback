@@ -1,0 +1,116 @@
+2021-06-27T08:53:44+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php:46
+Stack trace:
+#0 [internal function]: cryptotik_ajax_search('')
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php on line 46
+
+2021-06-27T08:59:22+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php:47
+Stack trace:
+#0 [internal function]: cryptotik_ajax_search('')
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php on line 47
+
+2021-06-27T09:01:14+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php:51
+Stack trace:
+#0 [internal function]: cryptotik_ajax_search('')
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php on line 51
+
+2021-06-27T09:01:21+00:00 CRITICAL Uncaught Error: [] operator not supported for strings in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php:51
+Stack trace:
+#0 [internal function]: cryptotik_ajax_search('')
+#1 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php on line 51
+
+2021-06-27T10:15:22+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:20
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('d')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 20
+
+2021-06-27T10:15:25+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:20
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('d')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 20
+
+2021-06-27T10:15:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:20
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('d')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 20
+
+2021-06-27T10:17:19+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:19
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('Fir')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 19
+
+2021-06-27T10:18:29+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:19
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('Fir')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 19
+
+2021-06-27T10:19:00+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_User as array in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php:20
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/cryptotik-ajax-search.php(40): cryptotik_ajax_search_get_users('Fir')
+#1 [internal function]: cryptotik_ajax_search('')
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array('cryptotik_ajax_...', Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(316): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(484): WP_Hook->do_action(Array)
+#5 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/admin-ajax.php(187): do_action('wp_ajax_cryptot...')
+#6 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/cryptotik-ajax-search/includes/getUsers.php on line 20
+
+2021-06-27T16:34:36+00:00 CRITICAL Uncaught Error: Object of class WP_Error could not be converted to string in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php:137
+Stack trace:
+#0 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php(35): WP_User_Avatar::wpua_core_show_user_profile(Object(WP_User))
+#1 [internal function]: WP_User_Avatar->{closure}('', Object(WP_User))
+#2 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/class-wp-hook.php(292): call_user_func_array(Object(Closure), Array)
+#3 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-includes/plugin.php(212): WP_Hook->apply_filters('', Array)
+#4 /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-admin/user-edit.php(606): apply_filters('user_profile_pi...', '', Object(WP_User))
+#5 {main}
+  thrown in /home/c/cryptotik/cryptotik.beget.tech/public_html/wp-content/plugins/wp-user-avatar/deprecated/wp-user-avatar/includes/class-wp-user-avatar.php on line 137
+
